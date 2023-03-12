@@ -18,5 +18,6 @@ from django.urls import path
 from Django_Analysis_App import views
 
 urlpatterns = [
+    # path('admin/', )
     path("", views.home_page),
 ]
